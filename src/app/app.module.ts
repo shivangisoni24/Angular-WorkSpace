@@ -8,6 +8,10 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { FooterComponent } from './footer/footer.component';
 import { SignupComponent } from './signup/signup.component';
 import { FormsModule } from  '@angular/forms';
+import { LoginComponent } from './login/login.component';
+import { UserComponent } from './user/user.component';
+import { UserlistComponent } from './user/userlist.component';
+import { RoleComponent } from './role/role.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +19,11 @@ import { FormsModule } from  '@angular/forms';
     NavbarComponent,
     WelcomeComponent,
     FooterComponent,
-    SignupComponent
+    SignupComponent,
+    LoginComponent,
+    UserComponent,
+    UserlistComponent,
+    RoleComponent
   ],
   imports: [
     BrowserModule,
